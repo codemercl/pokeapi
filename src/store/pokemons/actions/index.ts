@@ -42,7 +42,7 @@ export const fetchPokemonByType = createAsyncThunk<byUrlResponse[], void, { stat
       const pokemonResponses = await Promise.all(pokemons.map(pokemon => fetchPokemonByUrls(pokemon.url)));
 
       const filtered = pokemonResponses.filter(pokemon => {
-        return pokemon?.types.some((type: any) => type.type.name === pokemonType);
+        return pokemon?.types.some(type => type.type.name === pokemonType);
       });
 
       return filtered;

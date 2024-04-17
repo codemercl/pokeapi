@@ -6,6 +6,11 @@ export interface FetchPokemonsParams {
 }
 
 export interface byUrlResponse {
+    types: {
+        type: {
+            name: string;
+        };
+    }[];
     count: number;
     next: string | null;
     previous: string | null;

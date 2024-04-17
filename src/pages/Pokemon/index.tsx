@@ -46,7 +46,7 @@ export const Pokemon: FC = () => {
         <Card.Title>{details?.name}</Card.Title>
         <Card.Image src={details?.sprites.front_default} alt={details?.name} />
         <Card.Types>
-          {details?.types.map(({ type }: any, index: number) => (
+          {details?.types.map(({ type }, index: number) => (
             <Tag key={index} onClick={() => handleTypeClick(type.name)}>
               {type.name}
               {index < details.types.length - 1 && ', '}
@@ -54,7 +54,7 @@ export const Pokemon: FC = () => {
           ))}
         </Card.Types>
         <Card.Moves>
-          {details?.moves.map(({ move }: any) => move.name).join(', ')}
+          {details?.moves.map(({ move }) => move.name).join(', ')}
         </Card.Moves>
       </Card.Wrapper>
 
