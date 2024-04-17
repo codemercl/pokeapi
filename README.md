@@ -5,7 +5,7 @@ Welcome to My Pokemon App, a React-based application designed to help users mana
 ## Getting Started
 
 To get started with My Pokemon App, follow these simple steps:
-    **Explore the app**: Open your favorite web browser and visit `https://codemercl.github.io/pokeapi` to start exploring the My Pokemon App.
+    **Ready App**: Open your browser and visit https://pokeapi-tawny.vercel.app/ to start exploring the app.
 
 1. **Clone the repository**: Start by cloning this repository to your local machine using your preferred Git client or by running the following command:
 
