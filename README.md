@@ -24,6 +24,12 @@ To get started with My Pokemon App, follow these simple steps:
     npm run dev
     ```
 
+    **Production version**: Once the dependencies are installed, start the prod server by running:
+
+    ```
+    <a href="https://codemercl.github.io/pokeapi/">https://codemercl.github.io/pokeapi/</a>
+    ```
+
 4. **Explore the app**: Open your favorite web browser and visit `http://localhost:3000` to start exploring the My Pokemon App.
 
 ## Project Structure
