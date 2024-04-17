@@ -30,6 +30,7 @@ To get started with My Pokemon App, follow these simple steps:
 
 The project follows a structured organization to maintain clarity and modularity:
 
+```
 my-pokemon-app/
 │
 ├── src/
@@ -70,7 +71,7 @@ my-pokemon-app/
 ├── package.json
 ├── README.md
 └── ...
-
+```
 
 - **components/**: Contains reusable UI components used throughout the application.
 - **pages/**: Contains top-level page components, such as `App`, `Pokemons`, and `Pokemon`.
