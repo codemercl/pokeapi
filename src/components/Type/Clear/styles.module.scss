@@ -1,0 +1,13 @@
+@import '../../../assets/variables.scss';
+
+.button {
+    @extend %border-color;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: #000;
+    cursor: pointer;
+
+    &:hover {
+        @extend %border-color-hover;
+    }
+}

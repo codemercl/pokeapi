@@ -1,0 +1,12 @@
+@import '../../assets/variables.scss';
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: $background-second-color;
+}

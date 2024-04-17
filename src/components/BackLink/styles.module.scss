@@ -1,0 +1,18 @@
+@import '../../assets/variables.scss';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @extend %border-color;
+    padding: 10px 30px;
+    border-radius: 8px;
+    
+    &:hover {
+        @extend %border-color-hover;
+    }
+
+    p {
+        color: black;
+    }
+}

@@ -1,0 +1,12 @@
+@import '../../../assets/variables.scss';
+
+.wrapper {
+    @extend %border-color;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: #000;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
